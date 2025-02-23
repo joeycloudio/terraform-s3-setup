@@ -1,9 +1,9 @@
 provider "aws" {
-  region = "us-east-1" # Update this to the Region closest to you
+  region = "us-west-1" # Update this to the Region closest to you
 }
 
 resource "aws_s3_bucket" "my_bucket" {
-  bucket = "nextwork-unique-bucket-[your_name]-[random_number]" # Ensure this bucket name is globally unique
+  bucket = "nextwork-unique-bucket-joeyacosta-963831" # Ensure this bucket name is globally unique
 }
 
 resource "aws_s3_bucket_public_access_block" "my_bucket_public_access_block" {
@@ -13,4 +13,9 @@ resource "aws_s3_bucket_public_access_block" "my_bucket_public_access_block" {
   ignore_public_acls      = true
   block_public_policy     = true
   restrict_public_buckets = true
+}
+
+# Access the bucket's domain name (useful for website hosting or DNS)
+output "bucket_domain_name" {
+  value = aws_s3_bucket.my_bucket.bucket_domain_name
 }
