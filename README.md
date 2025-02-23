@@ -9,8 +9,6 @@
 
 ---
 
-![Image](http://learn.nextwork.org/sincere_violet_swift_hippopotamus/uploads/aws-devops-terraform1_9i0j1k2l)
-
 ---
 
 ## Introducing Today's Project!
@@ -37,8 +35,6 @@ Terraform is one of the most popular tools for Infrastructure as Code (IaC), all
 
 Terraform uses configuration files to define the desired infrastructure. The main.tf file serves as the blueprint, outlining how resources should be created. It is a central file in a Terraform project, guiding Terraform in resource creation.
 
-![Image](http://learn.nextwork.org/sincere_violet_swift_hippopotamus/uploads/aws-devops-terraform1_9i0j1k2l)
-
 ---
 
 ## Configuration files
@@ -49,8 +45,6 @@ The configuration uses provider and resource blocks for modularity, making it ea
 
 The first block defines the cloud provider, including credentials and region, enabling Terraform to interact with the provider’s APIs. The second block provisions the resource (an S3 bucket), and the third manages the bucket's ACLs.
 
-![Image](http://learn.nextwork.org/sincere_violet_swift_hippopotamus/uploads/aws-devops-terraform1_ljvh9876)
-
 ---
 
 ## Customizing my S3 Bucket
@@ -59,8 +53,6 @@ For my project extension, I reviewed the official Terraform documentation for th
 
 I customized my bucket to output the domain name in the Terraform file. This makes it easy to access without searching the console. After launching the bucket, I can verify the customization by checking this output.
 
-![Image](http://learn.nextwork.org/sincere_violet_swift_hippopotamus/uploads/aws-devops-terraform1_ffe757cd3)
-
 ---
 
 ## Terraform commands
@@ -68,8 +60,6 @@ I customized my bucket to output the domain name in the Terraform file. This mak
 I ran terraform init to initialize the main.tf file. This created a state file, installed the AWS provider plugin, and generated a lock file to manage provider versions, allowing Terraform to manage resources in my environment.
 
 Next, I ran terraform plan to preview the resources that will be created, modified, or destroyed before applying the changes. This serves as an important safeguard to ensure the desired changes align with the infrastructure.
-
-![Image](http://learn.nextwork.org/sincere_violet_swift_hippopotamus/uploads/aws-devops-terraform1_3g4h5i6j)
 
 ---
 
@@ -83,8 +73,6 @@ I ran terraform apply to apply the changes in the main.tf configuration file. Ru
 
 Running terraform init, plan, and apply in sequence is essential. init connects Terraform with AWS and downloads necessary plugins, while plan lets you review changes. apply shows the plan again and asks for permission to proceed with the changes.
 
-![Image](http://learn.nextwork.org/sincere_violet_swift_hippopotamus/uploads/aws-devops-terraform1_1q2w3e4r)
-
 ---
 
 ## Uploading an S3 Object
@@ -94,8 +82,6 @@ I added a new resource block to define the storage of an image file as an S3 obj
 We need to run terraform apply again because we updated the Terraform configuration to include a new resource: adding an image as an object to the S3 bucket.
 
 To confirm the successful update of my configuration, I verified that the image reference in my main.tf file matched the one uploaded to the S3 bucket—and it did!
-
-![Image](http://learn.nextwork.org/sincere_violet_swift_hippopotamus/uploads/aws-devops-terraform1_9o0p1a2s)
 
 ---
 
