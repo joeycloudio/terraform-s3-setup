@@ -57,4 +57,4 @@ The most rewarding part was seeing how **quick and repeatable** Terraform makes 
 
 ### **📎 Useful Links**  
 📄 **Project Documentation (PDF):** 🔗 [View on LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7299317851033583616/)  
-📂 **GitHub Repository:** 🔗 [View Code](Your GitHub Repo URL)
+📂 **GitHub Repository:** 🔗 [View Code](https://github.com/joeycloudio/terraform-s3-setup/blob/master/main.tf)
