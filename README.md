@@ -11,14 +11,14 @@ Terraform is a popular **Infrastructure as Code (IaC)** tool that allows enginee
 - **AWS CLI Integration** – Leveraged AWS CLI to authenticate and manage resources.  
 - **Terraform Commands** – Used `terraform init`, `terraform plan`, and `terraform apply` for deployment.  
 
----
+<br>
 
 ## **⚙ Tools & Technologies**  
 - **Terraform** – Infrastructure as Code (IaC)  
 - **Amazon S3** – Cloud Object Storage  
 - **AWS CLI** – Command-line interaction with AWS  
 
----
+<br>
 
 ## **🔧 Project Implementation**  
 
@@ -36,7 +36,7 @@ Terraform is a popular **Infrastructure as Code (IaC)** tool that allows enginee
 - Modified the Terraform script to include an **S3 object upload**.  
 - Re-ran `terraform apply` to update the infrastructure and verify the upload.  
 
----
+<br>
 
 ## **💡 Project Reflection**  
 🚀 This project was a great introduction to **Terraform and Infrastructure as Code (IaC)**.  
@@ -46,24 +46,15 @@ The most rewarding part was seeing how **quick and repeatable** Terraform makes 
 ✅ **Challenges:** Pushing the repo to GitHub due to authentication issues  
 ✅ **Outcome:** Successfully automated S3 bucket deployment with Terraform  
 
----
+<br>
 
 ## **📚 Additional Learning & Enhancements**  
 - Exploring **Terraform state management** for larger deployments.  
 - Implementing **IAM role-based access control** for better security.  
 - Automating **Terraform execution with CI/CD pipelines**.  
 
----
+<br>
 
 ### **📎 Useful Links**  
-📄 **Project Documentation (PDF):** 🔗 [View on LinkedIn](Your LinkedIn URL Here)  
-📂 **GitHub Repository:** 🔗 [View Code](Your GitHub Repo URL)  
-
----
-
-🔥 **Why This Optimization Works:**  
-✅ **Concise & Professional** – No unnecessary fluff.  
-✅ **Clear Formatting** – Makes it easy to skim.  
-✅ **Project Takeaways Highlighted** – Recruiters quickly see what you learned.  
-
-🚀 **Let me know if you want any final tweaks!** 💪
+📄 **Project Documentation (PDF):** 🔗 [View on LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7299317851033583616/)  
+📂 **GitHub Repository:** 🔗 [View Code](Your GitHub Repo URL)
