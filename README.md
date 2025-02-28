@@ -1,5 +1,7 @@
 # Create S3 Buckets with Terraform  
-**Automating Infrastructure Deployment with Terraform**  
+*Automating Infrastructure Deployment with Terraform*
+
+![]
 
 ## 📌 Project Overview  
 This project demonstrates how to use **Terraform** to automate the creation of **S3 buckets** in AWS.  
