@@ -5,7 +5,18 @@
 
 ## 📌 Project Overview  
 This project demonstrates how to use **Terraform** to automate the creation of **S3 buckets** in AWS.  
-Terraform is a popular **Infrastructure as Code (IaC)** tool that allows engineers to define and manage infrastructure in a consistent, scalable way.  
+Terraform is a popular **Infrastructure as Code (IaC)** tool that allows engineers to define and manage infrastructure in a consistent, scalable way.
+
+### Problem Statement
+Manually provisioning AWS S3 buckets can lead to human errors, inconsistent configurations, and security risks.
+
+### Business Impact
+✅ Eliminates manual setup errors & inconsistencies.  
+✅ Ensures repeatability & compliance (e.g., enforcing security policies across multiple accounts).  
+✅ Speeds up infrastructure deployment—critical for large companies managing cloud storage at scale.  
+
+### How Companies Use This
+Enterprises with multiple teams need automated, standardized provisioning for storage, logs, and backups.
 
 ### **🎯 Key Takeaways:**  
 - **Terraform Basics** – Installed and configured Terraform to interact with AWS.  
