@@ -61,9 +61,9 @@ Your IAM user/role should have permissions for:
 
 ## How to Use
 
-1\. \*\*Clone the repo and change directory\*\*
+1. **Clone the repo and change directory**
 
-   ```bash
+   ```
    git clone https://github.com/joeycloudio/terraform-s3-setup.git
    cd terraform-s3-setup```
 
