@@ -1,11 +1,7 @@
-# Create S3 Buckets with Terraform  
-_This project demonstrates how to use **Terraform** to automate the creation of **S3 buckets** in AWS. Terraform is a popular **Infrastructure as Code (IaC)** tool that allows engineers to define and manage infrastructure in a consistent, scalable way._
+# Create an S3 Bucket with Terraform  
+_This repo contains a small Terraform configuration that provisions a single, private Amazon S3 bucket with public access blocked. It’s a minimal example of using Infrastructure as Code (IaC) to create secure AWS storage in a repeatable way.
 
 ![terraform-s3-buckets.png](terraform-s3-buckets.png)
-
-# Create an S3 Bucket with Terraform
-
-This repo contains a small Terraform configuration that provisions a single, private Amazon S3 bucket with public access blocked. It’s a minimal example of using Infrastructure as Code (IaC) to create secure AWS storage in a repeatable way.
 
 \---
 
