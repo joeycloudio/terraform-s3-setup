@@ -63,9 +63,10 @@ Your IAM user/role should have permissions for:
 
 1. **Clone the repo and change directory**
 
-   ```
+   ```bash
    git clone https://github.com/joeycloudio/terraform-s3-setup.git
-   cd terraform-s3-setup```
+   cd terraform-s3-setup
+    ```
 
 1.  Set your AWS region (optional) In main.tf, update the region value in the provider "aws" block if you want a different region.
     
