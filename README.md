@@ -1,5 +1,5 @@
 # Create an S3 Bucket with Terraform  
-_This repo contains a small Terraform configuration that provisions a single, private Amazon S3 bucket with public access blocked. It’s a minimal example of using Infrastructure as Code (IaC) to create secure AWS storage in a repeatable way.
+This repo contains a small Terraform configuration that provisions a single, private Amazon S3 bucket with public access blocked. It’s a minimal example of using Infrastructure as Code (IaC) to create secure AWS storage in a repeatable way.
 
 ![terraform-s3-buckets.png](terraform-s3-buckets.png)
 
