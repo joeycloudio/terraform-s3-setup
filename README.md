@@ -11,7 +11,7 @@ It’s a minimal example of using Infrastructure as Code (IaC) to create secure 
 
 * Creates one S3 bucket
 
-* Applies an `aws\_s3\_bucket\_public\_access\_block\` resource so the bucket:
+* Applies an `aws_s3_bucket_public_access_block` resource so the bucket:
     * Blocks public ACLs
     * Ignores any public ACLs
     * Blocks public bucket policies
@@ -56,6 +56,8 @@ Your IAM user/role should have permissions for:
 - Any required account-level S3 actions depending on your org policies
 
 ## How to Use  
+
+   By default this uses `us-west-1`. You can change the region in `main.tf`.
   
 1. Clone the repo and change directory  
 ```bash
@@ -65,7 +67,7 @@ Your IAM user/role should have permissions for:
 ```
 2.  Set your AWS region (optional)
   
-    In main.tf, update the region value in the provider "aws" block if you want a different region.
+    In `main.tf`, update the region value in the provider "aws" block if you want a different region.
     
 3.  Initialize Terraform
 ```bash
@@ -76,6 +78,7 @@ terraform init
 ```bash
 terraform plan
 ```
+   Update the `bucket` name in `aws_s3_bucket.my_bucket` to a globally unique value before running `terraform apply`.
 
 5.  Apply the configuration
 ```bash    
@@ -89,7 +92,7 @@ terraform apply
     
     *   Go to the S3 console
         
-    *   Confirm the bucket exists with the name in main.tf
+    *   Confirm the bucket exists with the name in `main.tf`
         
     *   Check the “Block public access” settings are enabled
         
