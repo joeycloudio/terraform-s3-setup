@@ -25,8 +25,6 @@ This repo contains a small Terraform configuration that provisions a single, pri
 
 There are no uploads, IAM roles, or advanced policies here on purpose — this is a focused, entry-level infrastructure exercise.
 
-\---
-
 ## Why This Matters
 
 Manually creating buckets in the console is fine for one-offs, but it:
