@@ -3,8 +3,6 @@ This repo contains a small Terraform configuration that provisions a single, pri
 
 ![terraform-s3-buckets.png](terraform-s3-buckets.png)
 
----
-
 ## What This Project Does
 
 * Uses the AWS provider in Terraform
@@ -51,7 +49,7 @@ To run this yourself, you’ll need:
 
 Your IAM user/role should have permissions for:
 
-- \`s3:CreateBucket\`, \`s3:PutBucket\*\`, \`s3:GetBucket\*\`, \`s3:DeleteBucket\`
+- s3:CreateBucket, s3:PutBucket, s3:GetBucket, s3:DeleteBucket
 
 - Any required account-level S3 actions depending on your org policies
 
@@ -100,6 +98,7 @@ terraform destroy
 ```
 This cleans up the bucket so you don’t leave unused resources lying around.
 
-### **📎 Useful Links**  
-📄 **Project Documentation (PDF):** 🔗 [View on LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7299317851033583616/)  
-📂 **GitHub Repository:** 🔗 [View Code](https://github.com/joeycloudio/terraform-s3-setup/blob/master/main.tf)
+ ## Useful Links
+ 
+ **Project Documentation (PDF):** [View on LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7299317851033583616/)  
+ **GitHub Repository:** [View Code](https://github.com/joeycloudio/terraform-s3-setup/blob/master/main.tf)
