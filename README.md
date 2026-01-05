@@ -59,8 +59,6 @@ Your IAM user/role should have permissions for:
 
 \- Any required account-level S3 actions depending on your org policies
 
-\---
-
 ## How to Use
 
 1\. \*\*Clone the repo and change directory\*\*
