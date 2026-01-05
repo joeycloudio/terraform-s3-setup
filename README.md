@@ -43,10 +43,6 @@ With Terraform, you:
 
 \- Can recreate the same bucket in another region or account with minimal changes
 
-This is the kind of small, real IaC task junior engineers and support/infra folks are expected to handle.
-
-\---
-
 ## Prerequisites
 
 To run this yourself, you’ll need:
