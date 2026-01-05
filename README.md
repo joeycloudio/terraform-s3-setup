@@ -3,7 +3,7 @@ This repo contains a small Terraform configuration that provisions a single, pri
 
 ![terraform-s3-buckets.png](terraform-s3-buckets.png)
 
-\---
+---
 
 ## What This Project Does
 
