@@ -3,13 +3,13 @@ _This project demonstrates how to use **Terraform** to automate the creation of 
 
 ![terraform-s3-buckets.png](terraform-s3-buckets.png)
 
-\# Create an S3 Bucket with Terraform
+# Create an S3 Bucket with Terraform
 
 This repo contains a small Terraform configuration that provisions a single, private Amazon S3 bucket with public access blocked. It’s a minimal example of using Infrastructure as Code (IaC) to create secure AWS storage in a repeatable way.
 
 \---
 
-\## What This Project Does
+## What This Project Does
 
 \- Uses the AWS provider in Terraform
 
@@ -31,7 +31,7 @@ There are no uploads, IAM roles, or advanced policies here on purpose — this i
 
 \---
 
-\## Why This Matters
+## Why This Matters
 
 Manually creating buckets in the console is fine for one-offs, but it:
 
@@ -53,7 +53,7 @@ This is the kind of small, real IaC task junior engineers and support/infra folk
 
 \---
 
-\## Prerequisites
+## Prerequisites
 
 To run this yourself, you’ll need:
 
@@ -71,7 +71,7 @@ Your IAM user/role should have permissions for:
 
 \---
 
-\## How to Use
+## How to Use
 
 1\. \*\*Clone the repo and change directory\*\*
 
